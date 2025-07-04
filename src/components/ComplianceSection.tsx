@@ -1,64 +1,68 @@
+'use client';
+
 export default function ComplianceSection() {
   return (
-    <section className="py-20 lg:py-32 bg-gray-50">
+    <section className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold text-black mb-6">
-            No compromises on process compliance.{' '}
-            <span className="text-gray-500">
-              Finchise integrates seamlessly into your franchise landscape and meets all necessary enterprise requirements.
-            </span>
+          <h2 className="text-3xl md:text-4xl font-bold text-black mb-6">
+            Compliance & Security First
           </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            We understand the importance of security and compliance in franchisee accounting.
+            Our platform is built with enterprise-grade security and compliance features.
+          </p>
         </div>
 
-        {/* Compliance Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {/* Franchise Compliance */}
-          <div className="text-center">
-            <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-              <div className="grid grid-cols-4 gap-1">
-                {Array.from({ length: 16 }).map((_, i) => (
-                  <div key={i} className="w-1 h-1 bg-black rounded-full"></div>
-                ))}
-              </div>
-            </div>
-            <h3 className="font-semibold text-lg mb-2">Franchise-compliant processing of invoices</h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {/* Security Features */}
+          <div className="bg-white p-8 rounded-2xl">
+            <h3 className="text-2xl font-semibold mb-6">Security Features</h3>
+            <ul className="space-y-4">
+              <li className="flex items-start">
+                <svg className="w-6 h-6 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span>End-to-end encryption for all franchisee data</span>
+              </li>
+              <li className="flex items-start">
+                <svg className="w-6 h-6 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span>Multi-factor authentication</span>
+              </li>
+              <li className="flex items-start">
+                <svg className="w-6 h-6 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span>Regular security audits and penetration testing</span>
+              </li>
+            </ul>
           </div>
 
-          {/* Data Security */}
-          <div className="text-center">
-            <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-              <div className="grid grid-cols-6 gap-1">
-                {Array.from({ length: 24 }).map((_, i) => (
-                  <div key={i} className="w-1 h-1 bg-black rounded-full"></div>
-                ))}
-              </div>
-            </div>
-            <h3 className="font-semibold text-lg mb-2">Certified server infrastructure (SOC 2 & ISO 27001)</h3>
-          </div>
-
-          {/* Data Hosting */}
-          <div className="text-center">
-            <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-              <div className="relative">
-                <div className="w-8 h-8 border-2 border-black rounded-full"></div>
-                <div className="absolute top-2 left-2 w-4 h-4 bg-black rounded-full"></div>
-              </div>
-            </div>
-            <h3 className="font-semibold text-lg mb-2">Hosting in North America</h3>
-          </div>
-
-          {/* Privacy Compliance */}
-          <div className="text-center">
-            <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-              <div className="grid grid-cols-3 gap-1">
-                {Array.from({ length: 9 }).map((_, i) => (
-                  <div key={i} className="w-2 h-2 bg-black rounded-full"></div>
-                ))}
-              </div>
-            </div>
-            <h3 className="font-semibold text-lg mb-2">Privacy-compliant</h3>
+          {/* Compliance Standards */}
+          <div className="bg-white p-8 rounded-2xl">
+            <h3 className="text-2xl font-semibold mb-6">Compliance Standards</h3>
+            <ul className="space-y-4">
+              <li className="flex items-start">
+                <svg className="w-6 h-6 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span>SOC 2 Type II certified</span>
+              </li>
+              <li className="flex items-start">
+                <svg className="w-6 h-6 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span>GDPR compliant</span>
+              </li>
+              <li className="flex items-start">
+                <svg className="w-6 h-6 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span>Automated compliance reporting for franchisees</span>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

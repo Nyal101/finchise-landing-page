@@ -98,3 +98,4 @@ For questions about this project:
 ---
 
 Built with ❤️ for franchise accounting automation.
+ 
