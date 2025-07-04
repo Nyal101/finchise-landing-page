@@ -1,36 +1,100 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Finchise Landing Page
+
+A modern SaaS product landing page for Finchise - AI-powered franchise accounting automation platform.
+
+## Overview
+
+This repository contains the professional landing page for Finchise, showcasing our AI accounting automation platform designed specifically for franchise operations.
+
+## Features
+
+- **Modern Design**: Clean, professional design inspired by leading SaaS companies
+- **Responsive Layout**: Optimized for all devices and screen sizes
+- **Professional Components**: Modular component architecture for maintainability
+- **TypeScript**: Full type safety and developer experience
+- **Tailwind CSS**: Utility-first styling for rapid development
+
+## Tech Stack
+
+- **Next.js 14** - React framework with App Router
+- **React 18** - Modern React with hooks and server components
+- **TypeScript** - Type-safe development
+- **Tailwind CSS** - Utility-first CSS framework
+
+## Project Structure
+
+```
+src/
+├── app/
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   ├── Header.tsx
+│   ├── HeroSection.tsx
+│   ├── FeaturesSection.tsx
+│   ├── ComplianceSection.tsx
+│   └── Footer.tsx
+├── lib/
+└── types/
+```
 
 ## Getting Started
 
-First, run the development server:
-
+1. **Clone the repository**
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Nyal101/finchise-landing-page.git
+cd finchise-landing-page
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Install dependencies**
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. **Run the development server**
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. **Open your browser**
+Visit [http://localhost:3000](http://localhost:3000) to see the landing page.
 
-## Learn More
+## Customization
 
-To learn more about Next.js, take a look at the following resources:
+### Contact Information
+- Update email addresses in components
+- Replace Calendly links with your booking system
+- Modify contact forms and CTAs
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Content
+- Edit component content in `src/components/`
+- Update company information and messaging
+- Customize features and benefits
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Styling
+- Modify colors and themes in Tailwind classes
+- Update typography and spacing
+- Customize animations and transitions
 
-## Deploy on Vercel
+## Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The project is ready for deployment on platforms like:
+- **Vercel** (recommended for Next.js)
+- **Netlify**
+- **AWS Amplify**
+- **Any static hosting provider**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+
+© 2025 Finchise. All rights reserved.
+
+## Contact
+
+For questions about this project:
+- Email: info@finchise.ai
+- Website: [Coming September 2025]
+
+---
+
+Built with ❤️ for franchise accounting automation.
