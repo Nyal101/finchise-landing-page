@@ -5,24 +5,12 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Finchise - Franchise Accounting Automation Platform",
+  title: "Finchise AI",
   description: "Automating franchise accounting operations. Launching September 2025.",
   icons: {
-    icon: [
-      {
-        url: '/logo.svg',
-        type: 'image/svg+xml',
-      },
-      {
-        url: '/favicon.ico',
-        sizes: 'any',
-      }
-    ],
-    apple: {
-      url: '/apple-touch-icon.png',
-      type: 'image/png',
-      sizes: '180x180',
-    },
+    icon: '/icon.png',
+    shortcut: '/icon.png',
+    apple: '/apple-icon.png',
   },
 };
 
